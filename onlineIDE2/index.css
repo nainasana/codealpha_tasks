@@ -1,0 +1,44 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+body{
+    text-align: center;
+}
+h2{
+    font-weight: bold;
+    font-family:sans-serif;
+    color:rgb(35, 35, 35);
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.edit{
+    background-color: #57a958;
+    width: 100%;
+    border-radius:1px;
+
+}
+textarea{
+    width: 100%;
+    min-height: 350px;
+    overflow: scroll;
+    font-size: 1.5em;
+    background-color: rgba(33, 33, 33, 1.0);
+    color:white;
+}
+iframe{
+    width: 100%;
+    height: 28em;
+    background-color:whitesmoke;
+    
+}
+output{
+    background-color: #57a958;
+}
+h1{
+    color:rgb(35,35,35);
+    font-family: sans-serif;
+}
